@@ -1,0 +1,26 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #1e1e2e;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.dashboard .content {
+  display: flex;
+  /* margin-top: 70px; Ensure space for the TopToolbar */
+}
+
+.content .pdf-viewer {
+  flex-grow: 1;
+  margin-right: 250px; /* Space for the right sidebar */
+}
+
+.content .left-sidebar {
+  flex-shrink: 0;
+}
